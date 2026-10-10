@@ -4,16 +4,14 @@ cask "time-left" do
 
   url "https://github.com/sabuz796/time-left/releases/download/v#{version}/TimeLeft.dmg"
   name "Time Left"
-  desc "Menu bar countdown for day, week, month, year, and timer"
+  desc "Menu bar countdown showing time left in the day, week, month, and year"
   homepage "https://github.com/sabuz796/time-left"
 
   depends_on macos: :ventura
 
   app "TimeLeft.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.timeleft.app.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.timeleft.app.plist"
 
   caveats <<~EOS
     On first launch macOS may report the app is from an unidentified developer.
