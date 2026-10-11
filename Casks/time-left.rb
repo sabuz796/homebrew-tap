@@ -1,6 +1,6 @@
 cask "time-left" do
-  version "1.2.1"
-  sha256 "cb77022745dc473c14c19dfb3de88b30606e192cc7690b3681e1b15dd3020d2e"
+  version "1.3.0"
+  sha256 "5d8a9da80becc8d79ab58ae4b444d3c007e0e9839c4ecb270cebfcc168b54d33"
 
   url "https://github.com/sabuz796/time-left/releases/download/v#{version}/TimeLeft.dmg"
   name "Time Left"
