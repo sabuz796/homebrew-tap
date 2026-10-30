@@ -3,8 +3,8 @@
 # (sabuz796/homebrew-tap), so a tag updates both the GitHub release and the
 # cask in one run. Install line: brew install --cask sabuz796/tap/pi-status-bar
 cask "pi-status-bar" do
-  version "0.0.1"
-  sha256 "dcd133adf0c5d36dbdc4cb9e091e9842e87cb4985021ab9086452b59d4bd58a4"
+  version "0.0.2"
+  sha256 "ef6a77de6c04b932ccebfb692747b43e1b90ff6bb3330bf5b7da40509f87a00f"
 
   url "https://github.com/sabuz796/pi-status-menubar/releases/download/v#{version}/PiStatusBar-#{version}.dmg"
   name "Pi Status Bar"
